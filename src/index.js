@@ -13,13 +13,12 @@ import ReactDOM from "react-dom";
 ReactDOM.render(
   <div>
     <h1>Three reasons to complete Bootcamp</h1>
-    <p>
-      <ul>
-        <li>Make more money</li>
-        <li>Exercise the ability to learn something new</li>
-        <li>Fulfill the desire for a career change.</li>
-      </ul>
-    </p>
+
+    <ul>
+      <li>Make more money</li>
+      <li>Exercise the ability to learn something new</li>
+      <li>Fulfill the desire for a career change.</li>
+    </ul>
   </div>,
   document.getElementById("root")
 );
